@@ -9,6 +9,7 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 const nextConfig = {
   /* config options here */
   reactStrictMode: true,
+  turbopack: {},
 };
 
 module.exports = withPWA(nextConfig);
